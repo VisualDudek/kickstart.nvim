@@ -11,6 +11,14 @@ sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip neovim
 ```
 if any problems eg with Proxy better install via AppImage.
+For FUSE you will nee:
+```sh
+sudo apt install fuse libfuse2
+```
+verify that FUSE is correctly installed:
+```sh
+fusermount --version
+```
 
 ### config
 
